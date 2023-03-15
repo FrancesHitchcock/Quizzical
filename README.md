@@ -28,6 +28,7 @@ All requirements were met and the following additional functionality incorporate
 
 Vite was used to create a local React app. The structure is on four levels and comprises the parent App() component, with the Start() component and the Quiz() component on the second level. Quiz() is parent to CheckButton(), PlayAgainButton() and QuestionSet(), and the map() method is used to to render five QuestionSet() componenets. Each QuestionSet() is parent to four Answer() components which are in turn rendered using .map(). Conditional styling was used in the Answers() component to indicate the correct and selected answers in different states.
 All the state variables are contained in App(), and all the questions and answers data is stored in a single array of objects which is set using a call to the OTDB API.
+The app is responsive and is styled 'mobile-first'.
 
 ## Reflections
 

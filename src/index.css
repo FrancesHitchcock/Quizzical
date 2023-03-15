@@ -19,7 +19,7 @@ body{
   align-items: center;
 }
 
-/* pages */
+/* layout */
 
 .wrapper{
   max-width: 800px;
@@ -81,7 +81,6 @@ h2{
   margin-right: 3em;
 }
 
-
 .question-set{
   border-bottom: 1px solid #DBDEF0;
   padding: 1em 0 .25em 0;
@@ -108,7 +107,6 @@ h2{
 .answer-container{
   min-width: 66px;
   text-align: center;
-  /* border: 1px solid #4D5B9E; */
   margin: 0 0 .75em 0;
   padding: .15em .6em;
   border-radius: 10px;
@@ -188,7 +186,7 @@ button{
 
 @media screen and (min-width: 400px){
   .wrapper{
-    background-image: url("lemony.png"), url("baby.png");
+    background-image: url("./lemony.png"), url("./baby.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
   }

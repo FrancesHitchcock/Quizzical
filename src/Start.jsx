@@ -1,8 +1,15 @@
 import React from "react"
 
+import lemony from "./lemony.png"
+import baby from "./baby.png"
+
+const styles = {
+    backgroundImage: `url(${lemony}), url(${baby})`
+}
+
 export default function Start(props){
     return(
-        <div className="wrapper start-wrapper">
+        <div className="wrapper start-wrapper" style={styles}>
             <h1>Quizzical</h1>
             <div className="select-container">
                 <p>Choose difficulty level</p>

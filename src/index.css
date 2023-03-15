@@ -27,6 +27,7 @@ body{
   width: 90%;
   padding: 20px;
   background-color: #F5F7FB;
+  background-size: 0, 0;
 }
 
 .start-wrapper{
@@ -183,10 +184,9 @@ button{
   margin: 0;
 }
 
-
 @media screen and (min-width: 400px){
   .wrapper{
-    background-image: url("./lemony.png"), url("./baby.png");
+    /* background-image: url("./lemony.png"), url("./baby.png"); */
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
   }

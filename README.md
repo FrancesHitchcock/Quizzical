@@ -34,7 +34,7 @@ The app is responsive and is styled 'mobile-first'.
 
 - React confetti is quite limited as it does not respond to screen resize, so it can end up looking a bit messy.
 - The Figma suggested font-sizes were followed. However, these are quite small and hard to read, especially when coupled with the .5 opacity value. Depending on the target audience, the font-sizes and contrasts etc could be increased.
--Engagement with the Scrimba Discord Community was really helpful, particularly for using the technology surrounding npm packages (e.g. npm he) and how to use the Vite React App.  
+- Engagement with the Scrimba Discord Community was really helpful, particularly for using the technology surrounding npm packages (e.g. npm he) and how to use the Vite React App.  
 
 Frances Hitchcock, 15 March 2023
 
